@@ -1,0 +1,35 @@
+{
+  "name": "token-swapper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "coverage": "hardhat coverage --network hardhat"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-etherscan": "^3.1.7",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@openzeppelin/contracts": "^4.0.0",
+    "@openzeppelin/test-helpers": "^0.5.10",
+    "@typechain/ethers-v5": "^7.0.0",
+    "@typechain/hardhat": "^9.1.0",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.3.0",
+    "ethers": "^5.1.0",
+    "hardhat": "^2.19.0",
+    "hardhat-abi-exporter": "^2.2.1",
+    "hardhat-gas-reporter": "^1.0.4",
+    "solc": "^0.8.3",
+    "solidity-bytes-utils": "^0.8.0",
+    "solidity-coverage": "^0.7.16",
+    "typechain": "^5.0.0",
+    "web3": "^1.3.5"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
